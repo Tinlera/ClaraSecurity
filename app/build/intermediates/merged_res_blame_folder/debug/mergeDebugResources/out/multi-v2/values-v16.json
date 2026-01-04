@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.clara.security.app-mergeDebugResources-54:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

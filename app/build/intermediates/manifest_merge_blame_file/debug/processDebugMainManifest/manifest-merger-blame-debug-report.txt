@@ -1,0 +1,372 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.clara.security"
+4    android:versionCode="2"
+5    android:versionName="0.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Gerekli İzinler -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:7:5-77
+13-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:8:5-77
+14-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+15-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:9:5-89
+15-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:9:22-86
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:10:5-81
+16-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+17-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:11:5-12:53
+17-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:11:22-74
+18
+19    <!-- SMS İzinleri (Phishing tespiti için) -->
+20    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+20-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:15:5-70
+20-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:15:22-67
+21    <uses-permission android:name="android.permission.READ_SMS" />
+21-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:16:5-67
+21-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:16:22-64
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:17:5-75
+22-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:17:22-72
+23
+24    <!-- Storage İzinleri (Dosya tarama için) -->
+25    <uses-permission
+25-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:20:5-21:38
+26        android:name="android.permission.READ_EXTERNAL_STORAGE"
+26-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:20:22-77
+27        android:maxSdkVersion="32" />
+27-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:21:9-35
+28    <uses-permission
+28-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:22:5-23:38
+29        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+29-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:22:22-78
+30        android:maxSdkVersion="29" />
+30-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:23:9-35
+31    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+31-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:24:5-25:40
+31-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:24:22-79
+32    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+32-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:26:5-76
+32-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:26:22-73
+33    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+33-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:27:5-75
+33-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:27:22-72
+34    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+34-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:28:5-75
+34-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:28:22-72
+35
+36    <!-- Anti-Theft ve Overlay İzinleri -->
+37    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+37-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:31:5-78
+37-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:31:22-75
+38    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+38-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:32:5-72
+38-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:32:22-69
+39    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+39-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:33:5-74
+39-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:33:22-71
+40    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+40-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:34:5-71
+40-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:34:22-68
+41    <uses-permission android:name="android.permission.CAMERA" />
+41-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:35:5-65
+41-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:35:22-62
+42    <uses-permission android:name="android.permission.VIBRATE" />
+42-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:36:5-66
+42-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:36:22-63
+43
+44    <!-- Device Admin İzinleri -->
+45    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
+45-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:39:5-76
+45-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:39:22-73
+46    <uses-permission android:name="android.permission.GET_TASKS" />
+46-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:40:5-68
+46-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:40:22-65
+47    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+47-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:41:5-42:47
+47-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:41:22-75
+48    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+48-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:43:5-82
+48-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:43:22-79
+49    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+49-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:44:5-75
+49-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:44:22-72
+50    <uses-permission android:name="android.permission.WAKE_LOCK" />
+50-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:45:5-68
+50-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:45:22-65
+51
+52    <!-- Ağ İzleme -->
+53    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+53-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:48:5-79
+53-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:48:22-76
+54    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+54-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:49:5-76
+54-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:49:22-73
+55    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+55-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:50:5-76
+55-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:50:22-73
+56
+57    <!-- Konum (WiFi güvenlik taraması için) -->
+58    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+58-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:53:5-79
+58-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:53:22-76
+59    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+59-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:54:5-81
+59-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:54:22-78
+60    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+60-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:55:5-85
+60-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:55:22-82
+61
+62    <permission
+62-->[androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+63        android:name="com.clara.security.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+63-->[androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+64        android:protectionLevel="signature" />
+64-->[androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+65
+66    <uses-permission android:name="com.clara.security.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+66-->[androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+66-->[androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+67
+68    <application
+68-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:57:5-138:19
+69        android:allowBackup="true"
+69-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:58:9-35
+70        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+70-->[androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+71        android:debuggable="true"
+72        android:extractNativeLibs="false"
+73        android:icon="@mipmap/ic_launcher"
+73-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:59:9-43
+74        android:label="@string/app_name"
+74-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:60:9-41
+75        android:roundIcon="@mipmap/ic_launcher_round"
+75-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:61:9-54
+76        android:supportsRtl="true"
+76-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:62:9-35
+77        android:theme="@style/Theme.CLARASecurity" >
+77-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:63:9-51
+78        <activity
+78-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:66:9-74:20
+79            android:name="com.clara.security.MainActivity"
+79-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:67:13-41
+80            android:exported="true"
+80-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:68:13-36
+81            android:theme="@style/Theme.CLARASecurity" >
+81-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:69:13-55
+82            <intent-filter>
+82-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:70:13-73:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:71:17-69
+83-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:71:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:72:17-77
+85-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:72:27-74
+86            </intent-filter>
+87        </activity>
+88
+89        <!-- Boot Receiver -->
+90        <receiver
+90-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:77:9-83:20
+91            android:name="com.clara.security.receiver.BootReceiver"
+91-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:78:13-50
+92            android:exported="true" >
+92-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:79:13-36
+93            <intent-filter>
+93-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:80:13-82:29
+94                <action android:name="android.intent.action.BOOT_COMPLETED" />
+94-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:81:17-79
+94-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:81:25-76
+95            </intent-filter>
+96        </receiver>
+97
+98        <!-- SMS Receiver (Phishing tespiti) -->
+99        <receiver
+99-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:86:9-93:20
+100            android:name="com.clara.security.receiver.SmsReceiver"
+100-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:87:13-49
+101            android:exported="true"
+101-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:88:13-36
+102            android:permission="android.permission.BROADCAST_SMS" >
+102-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:89:13-66
+103            <intent-filter android:priority="999" >
+103-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:90:13-92:29
+103-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:90:28-50
+104                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+104-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:91:17-82
+104-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:91:25-79
+105            </intent-filter>
+106        </receiver>
+107
+108        <!-- Connection Service -->
+109        <service
+109-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:96:9-103:19
+110            android:name="com.clara.security.service.ClaraConnectionService"
+110-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:97:13-59
+111            android:exported="false"
+111-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:98:13-37
+112            android:foregroundServiceType="specialUse" >
+112-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:99:13-55
+113            <property
+113-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:100:13-102:55
+114                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+114-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:101:17-76
+115                android:value="security_monitoring" />
+115-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:102:17-52
+116        </service>
+117
+118        <!-- Real-Time Protection Service -->
+119        <service
+119-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:106:9-113:19
+120            android:name="com.clara.security.service.RealTimeProtectionService"
+120-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:107:13-62
+121            android:exported="false"
+121-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:108:13-37
+122            android:foregroundServiceType="specialUse" >
+122-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:109:13-55
+123            <property
+123-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:100:13-102:55
+124                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+124-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:101:17-76
+125                android:value="real_time_protection" />
+125-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:102:17-52
+126        </service>
+127
+128        <!-- Overlay Lock Service -->
+129        <service
+129-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:116:9-119:75
+130            android:name="com.clara.security.security.OverlayLockService"
+130-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:117:13-56
+131            android:exported="false"
+131-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:118:13-37
+132            android:permission="android.permission.SYSTEM_ALERT_WINDOW" />
+132-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:119:13-72
+133
+134        <!-- Device Admin Receiver -->
+135        <receiver
+135-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:122:9-136:20
+136            android:name="com.clara.security.receiver.ClaraDeviceAdminReceiver"
+136-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:123:13-62
+137            android:exported="true"
+137-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:124:13-36
+138            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+138-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:125:13-70
+139            <meta-data
+139-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:126:13-128:56
+140                android:name="android.app.device_admin"
+140-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:127:17-56
+141                android:resource="@xml/device_admin" />
+141-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:128:17-53
+142
+143            <intent-filter>
+143-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:129:13-135:29
+144                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+144-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:130:17-82
+144-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:130:25-79
+145                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
+145-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:131:17-83
+145-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:131:25-80
+146                <action android:name="android.app.action.ACTION_PASSWORD_CHANGED" />
+146-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:132:17-85
+146-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:132:25-82
+147                <action android:name="android.app.action.ACTION_PASSWORD_FAILED" />
+147-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:133:17-84
+147-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:133:25-81
+148                <action android:name="android.app.action.ACTION_PASSWORD_SUCCEEDED" />
+148-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:134:17-87
+148-->/home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:134:25-84
+149            </intent-filter>
+150        </receiver>
+151
+152        <activity
+152-->[androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:23:9-25:39
+153            android:name="androidx.activity.ComponentActivity"
+153-->[androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:24:13-63
+154            android:exported="true" />
+154-->[androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:25:13-36
+155        <activity
+155-->[androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+156            android:name="androidx.compose.ui.tooling.PreviewActivity"
+156-->[androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+157            android:exported="true" />
+157-->[androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+158
+159        <provider
+159-->[androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+160            android:name="androidx.startup.InitializationProvider"
+160-->[androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+161            android:authorities="com.clara.security.androidx-startup"
+161-->[androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+162            android:exported="false" >
+162-->[androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+163            <meta-data
+163-->[androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+164                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+164-->[androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+165                android:value="androidx.startup" />
+165-->[androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+166            <meta-data
+166-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+167                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+167-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+168                android:value="androidx.startup" />
+168-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+169            <meta-data
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+170                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+170-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+171                android:value="androidx.startup" />
+171-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+172        </provider>
+173
+174        <receiver
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+175            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+176            android:directBootAware="false"
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+177            android:enabled="true"
+177-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+178            android:exported="true"
+178-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+179            android:permission="android.permission.DUMP" >
+179-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+180            <intent-filter>
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+181                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+182            </intent-filter>
+183            <intent-filter>
+183-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+184                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+185            </intent-filter>
+186            <intent-filter>
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+187                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+188            </intent-filter>
+189            <intent-filter>
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+190                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+191            </intent-filter>
+192        </receiver>
+193    </application>
+194
+195</manifest>

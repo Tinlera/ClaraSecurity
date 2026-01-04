@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.clara.security.app-debug-56:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.clara.security.app-main-58:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.clara.security.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.clara.security.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.clara.security.app-debug-56:/xml_device_admin.xml.flat",
+        "source": "com.clara.security.app-main-58:/xml/device_admin.xml"
+    },
+    {
+        "merged": "com.clara.security.app-debug-56:/drawable-nodpi_lockscreen_bg.jpg.flat",
+        "source": "com.clara.security.app-main-58:/drawable-nodpi/lockscreen_bg.jpg"
+    }
+]

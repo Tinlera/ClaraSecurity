@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- Ekranı kilitleme -->
+        <force-lock />
+        
+        <!-- Tüm verileri silme (fabrika ayarları) -->
+        <wipe-data />
+        
+        <!-- Parola kalitesi zorlama -->
+        <limit-password />
+        
+        <!-- Parola geçerlilik süresi -->
+        <expire-password />
+        
+        <!-- Parola geçmişi -->
+        <reset-password />
+        
+        <!-- Şifreleme zorlama -->
+        <encrypted-storage />
+        
+        <!-- Kamera devre dışı bırakma -->
+        <disable-camera />
+        
+        <!-- Keyguard özellikleri -->
+        <disable-keyguard-features />
+    </uses-policies>
+</device-admin>

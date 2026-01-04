@@ -1,0 +1,606 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:2:1-140:12
+INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:2:1-140:12
+INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:2:1-140:12
+INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:2:1-140:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/methun/.gradle/caches/8.13/transforms/51acc1980392815cdfb076844796a09e/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/methun/.gradle/caches/8.13/transforms/5049b04904ae61ff67f8779e6a49cecb/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/methun/.gradle/caches/8.13/transforms/a7147e7a8b374c10078fb477804f07c0/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/methun/.gradle/caches/8.13/transforms/0cf7bccfc3d9b2ca7a7e733b7acfb19d/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/methun/.gradle/caches/8.13/transforms/7cc0420653412089dc76e22b8bcc0ea2/transformed/jetified-navigation-compose-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3:1.1.2] /home/methun/.gradle/caches/8.13/transforms/d70897bf939067860a5179060d83edff/transformed/jetified-material3-1.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] /home/methun/.gradle/caches/8.13/transforms/0f886cf6045c4815a978f72772bf4b66/transformed/jetified-activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/methun/.gradle/caches/8.13/transforms/41b3d86ae4f5476fd8c4f703a2e7cbf2/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] /home/methun/.gradle/caches/8.13/transforms/d63a6f902e3083d29e54e3d0991c30ea/transformed/jetified-coil-compose-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/methun/.gradle/caches/8.13/transforms/17e42ad1df0b6638454eac66753963de/transformed/jetified-coil-compose-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/fb76460411fa6b4ffc82e1b4114f35f8/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/bdf6f3e50d70766e384a5e7a01702bf4/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/401c5df141f93a21ada23731d89fbf7e/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/75ab1ccedd2cc72caf43a5ca79323c30/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/f99592ca8e81bc7e6493deb89e9d52f4/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/4de1e255e56103d7f2fa6fba8435cf2d/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/0b2199ca6141ed32bb4af02ca3cebd43/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/789ca08e30edd0ac5ac420015dcad3bb/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/7ebc6ed6c82d381d94d6980dd8339223/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/ec415573230a28574672a2091d8081ee/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/00b8060799628b30f95bbddfe0586e3a/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/3279a7287909c88f368e7495ae9ddde2/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/048ffac495f265f44e3a26d76742da54/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/d1e140c299eb24b73cbec5bddfc1fe9a/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/3b3d2a236d6cf63aea4f4abd122861c4/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/methun/.gradle/caches/8.13/transforms/037bd2dbd6ec342d81ea15e17a0937cc/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/methun/.gradle/caches/8.13/transforms/f898ef43ceb149bba7284d6511e4a3b1/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/methun/.gradle/caches/8.13/transforms/307b259d3dc1ddcdf2db987ebdaecfb4/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/methun/.gradle/caches/8.13/transforms/62333c851753108336584bf2a6c3c72f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/methun/.gradle/caches/8.13/transforms/597812f6cdf48e98e0ddeaa75bfa4d54/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/methun/.gradle/caches/8.13/transforms/f68a2c632b2b332838ef27be434c6d81/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/methun/.gradle/caches/8.13/transforms/ce076f99016a28e804c620a772c44132/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil:2.5.0] /home/methun/.gradle/caches/8.13/transforms/4bbdada15111f1f7487cb4a771803b00/transformed/jetified-coil-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/methun/.gradle/caches/8.13/transforms/b5005aefa43ee3b435247f7160a87500/transformed/jetified-coil-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/methun/.gradle/caches/8.13/transforms/09286404ae921f35c2603dbcc42d0bd8/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/methun/.gradle/caches/8.13/transforms/0d5135b458cb6b99495867c9e37518f0/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d88c67afc5037b36945a8e37b88f417c/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/methun/.gradle/caches/8.13/transforms/86558f5cdaa4356c0c9f0e27f1a18db8/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/e9a2214d59478e72e42a458d5918d048/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/methun/.gradle/caches/8.13/transforms/3bc0f43cdf0c69233fc7e5ac47b9e023/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/methun/.gradle/caches/8.13/transforms/5f36d2ccafdcdf2fd020b811bac40291/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/methun/.gradle/caches/8.13/transforms/d8c02616d8688d99ce84ed2fcbda5241/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/methun/.gradle/caches/8.13/transforms/2e9cdd52cd9a80b2a5a7546222c77a86/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/methun/.gradle/caches/8.13/transforms/57cd09b2d5140facabb78222cf9a3d37/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/methun/.gradle/caches/8.13/transforms/d78f7bb495ad2c3035bd68d58604ec64/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/methun/.gradle/caches/8.13/transforms/5ae683aac3ffdaa10972c5002c686b44/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /home/methun/.gradle/caches/8.13/transforms/0f6dbe19119e1b00d3da14ed4725c74f/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/6e5bed1bdf1c4e1d8fe99aef6df57ffa/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/587816fa955b2bca8a83ed4d0614078c/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/methun/.gradle/caches/8.13/transforms/e57a3b4a169baabf17c8229fadaee7da/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /home/methun/.gradle/caches/8.13/transforms/434156b013e6a7c053cd248438f95e9d/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/methun/.gradle/caches/8.13/transforms/f0840b58518282947a4deb05ac514526/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/methun/.gradle/caches/8.13/transforms/9133e178afc1aef1802ed2bcd7e87908/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/methun/.gradle/caches/8.13/transforms/694bff509ac45bac1a6f35dee924a0a1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/methun/.gradle/caches/8.13/transforms/6767ff741a6532f49817b90c971f5242/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/methun/.gradle/caches/8.13/transforms/d60e35cac30d9563c73d3f23413e0fe8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/methun/.gradle/caches/8.13/transforms/03d4d16d0695d367045775a98368bb42/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:8:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:9:5-89
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:9:22-86
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:11:5-12:53
+	tools:ignore
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:12:9-50
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:15:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:20:5-21:38
+	android:maxSdkVersion
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:21:9-35
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:22:5-23:38
+	android:maxSdkVersion
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:23:9-35
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:24:5-25:40
+	tools:ignore
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:25:9-37
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:24:22-79
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:26:5-76
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:26:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:27:22-72
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:28:22-72
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:31:5-78
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:31:22-75
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:32:5-72
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:32:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:33:5-74
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:33:22-71
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:34:5-71
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:34:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:35:5-65
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:35:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:36:5-66
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:36:22-63
+uses-permission#android.permission.BIND_DEVICE_ADMIN
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:39:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:40:5-68
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:40:22-65
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:41:5-42:47
+	tools:ignore
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:42:9-44
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:41:22-75
+uses-permission#android.permission.REQUEST_DELETE_PACKAGES
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:43:22-79
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:44:5-75
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:44:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:45:5-68
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:45:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:48:5-79
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:48:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:49:5-76
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:49:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:50:5-76
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:50:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:53:5-79
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:53:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:54:5-81
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:54:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:55:5-85
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:55:22-82
+application
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:57:5-138:19
+INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:57:5-138:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/methun/.gradle/caches/8.13/transforms/9133e178afc1aef1802ed2bcd7e87908/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/methun/.gradle/caches/8.13/transforms/9133e178afc1aef1802ed2bcd7e87908/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/methun/.gradle/caches/8.13/transforms/6767ff741a6532f49817b90c971f5242/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/methun/.gradle/caches/8.13/transforms/6767ff741a6532f49817b90c971f5242/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:62:9-35
+	android:label
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:60:9-41
+	android:roundIcon
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:61:9-54
+	tools:targetApi
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:64:9-29
+	android:icon
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:59:9-43
+	android:allowBackup
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:58:9-35
+	android:theme
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:63:9-51
+activity#com.clara.security.MainActivity
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:66:9-74:20
+	android:exported
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:68:13-36
+	android:theme
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:69:13-55
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:67:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:70:13-73:29
+action#android.intent.action.MAIN
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:72:17-77
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:72:27-74
+receiver#com.clara.security.receiver.BootReceiver
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:77:9-83:20
+	android:exported
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:79:13-36
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:78:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:80:13-82:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:81:17-79
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:81:25-76
+receiver#com.clara.security.receiver.SmsReceiver
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:86:9-93:20
+	android:exported
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:88:13-36
+	android:permission
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:89:13-66
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:87:13-49
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:90:13-92:29
+	android:priority
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:90:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:91:17-82
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:91:25-79
+service#com.clara.security.service.ClaraConnectionService
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:96:9-103:19
+	android:exported
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:98:13-37
+	android:foregroundServiceType
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:99:13-55
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:97:13-59
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:100:13-102:55
+	android:value
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:102:17-52
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:101:17-76
+service#com.clara.security.service.RealTimeProtectionService
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:106:9-113:19
+	android:exported
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:108:13-37
+	android:foregroundServiceType
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:109:13-55
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:107:13-62
+service#com.clara.security.security.OverlayLockService
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:116:9-119:75
+	android:exported
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:118:13-37
+	android:permission
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:119:13-72
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:117:13-56
+receiver#com.clara.security.receiver.ClaraDeviceAdminReceiver
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:122:9-136:20
+	android:exported
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:124:13-36
+	android:permission
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:125:13-70
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:123:13-62
+meta-data#android.app.device_admin
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:126:13-128:56
+	android:resource
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:128:17-53
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:127:17-56
+intent-filter#action:name:android.app.action.ACTION_PASSWORD_CHANGED+action:name:android.app.action.ACTION_PASSWORD_FAILED+action:name:android.app.action.ACTION_PASSWORD_SUCCEEDED+action:name:android.app.action.DEVICE_ADMIN_DISABLED+action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:129:13-135:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:130:17-82
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:130:25-79
+action#android.app.action.DEVICE_ADMIN_DISABLED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:131:17-83
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:131:25-80
+action#android.app.action.ACTION_PASSWORD_CHANGED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:132:17-85
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:132:25-82
+action#android.app.action.ACTION_PASSWORD_FAILED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:133:17-84
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:133:25-81
+action#android.app.action.ACTION_PASSWORD_SUCCEEDED
+ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:134:17-87
+	android:name
+		ADDED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml:134:25-84
+uses-sdk
+INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/methun/.gradle/caches/8.13/transforms/51acc1980392815cdfb076844796a09e/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/methun/.gradle/caches/8.13/transforms/51acc1980392815cdfb076844796a09e/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/methun/.gradle/caches/8.13/transforms/5049b04904ae61ff67f8779e6a49cecb/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/methun/.gradle/caches/8.13/transforms/5049b04904ae61ff67f8779e6a49cecb/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/methun/.gradle/caches/8.13/transforms/a7147e7a8b374c10078fb477804f07c0/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/methun/.gradle/caches/8.13/transforms/a7147e7a8b374c10078fb477804f07c0/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/methun/.gradle/caches/8.13/transforms/0cf7bccfc3d9b2ca7a7e733b7acfb19d/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/methun/.gradle/caches/8.13/transforms/0cf7bccfc3d9b2ca7a7e733b7acfb19d/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/methun/.gradle/caches/8.13/transforms/7cc0420653412089dc76e22b8bcc0ea2/transformed/jetified-navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/methun/.gradle/caches/8.13/transforms/7cc0420653412089dc76e22b8bcc0ea2/transformed/jetified-navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] /home/methun/.gradle/caches/8.13/transforms/d70897bf939067860a5179060d83edff/transformed/jetified-material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] /home/methun/.gradle/caches/8.13/transforms/d70897bf939067860a5179060d83edff/transformed/jetified-material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/methun/.gradle/caches/8.13/transforms/0f886cf6045c4815a978f72772bf4b66/transformed/jetified-activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/methun/.gradle/caches/8.13/transforms/0f886cf6045c4815a978f72772bf4b66/transformed/jetified-activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/methun/.gradle/caches/8.13/transforms/41b3d86ae4f5476fd8c4f703a2e7cbf2/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/methun/.gradle/caches/8.13/transforms/41b3d86ae4f5476fd8c4f703a2e7cbf2/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] /home/methun/.gradle/caches/8.13/transforms/d63a6f902e3083d29e54e3d0991c30ea/transformed/jetified-coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] /home/methun/.gradle/caches/8.13/transforms/d63a6f902e3083d29e54e3d0991c30ea/transformed/jetified-coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/methun/.gradle/caches/8.13/transforms/17e42ad1df0b6638454eac66753963de/transformed/jetified-coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/methun/.gradle/caches/8.13/transforms/17e42ad1df0b6638454eac66753963de/transformed/jetified-coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/fb76460411fa6b4ffc82e1b4114f35f8/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/fb76460411fa6b4ffc82e1b4114f35f8/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/bdf6f3e50d70766e384a5e7a01702bf4/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/bdf6f3e50d70766e384a5e7a01702bf4/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/401c5df141f93a21ada23731d89fbf7e/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/401c5df141f93a21ada23731d89fbf7e/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/75ab1ccedd2cc72caf43a5ca79323c30/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/75ab1ccedd2cc72caf43a5ca79323c30/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/f99592ca8e81bc7e6493deb89e9d52f4/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/f99592ca8e81bc7e6493deb89e9d52f4/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/4de1e255e56103d7f2fa6fba8435cf2d/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/4de1e255e56103d7f2fa6fba8435cf2d/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/0b2199ca6141ed32bb4af02ca3cebd43/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/0b2199ca6141ed32bb4af02ca3cebd43/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/789ca08e30edd0ac5ac420015dcad3bb/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/789ca08e30edd0ac5ac420015dcad3bb/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/7ebc6ed6c82d381d94d6980dd8339223/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/7ebc6ed6c82d381d94d6980dd8339223/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/ec415573230a28574672a2091d8081ee/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/ec415573230a28574672a2091d8081ee/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/00b8060799628b30f95bbddfe0586e3a/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/00b8060799628b30f95bbddfe0586e3a/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/3279a7287909c88f368e7495ae9ddde2/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/3279a7287909c88f368e7495ae9ddde2/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/048ffac495f265f44e3a26d76742da54/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/048ffac495f265f44e3a26d76742da54/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/d1e140c299eb24b73cbec5bddfc1fe9a/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/d1e140c299eb24b73cbec5bddfc1fe9a/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/3b3d2a236d6cf63aea4f4abd122861c4/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/3b3d2a236d6cf63aea4f4abd122861c4/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/methun/.gradle/caches/8.13/transforms/037bd2dbd6ec342d81ea15e17a0937cc/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/methun/.gradle/caches/8.13/transforms/037bd2dbd6ec342d81ea15e17a0937cc/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/methun/.gradle/caches/8.13/transforms/f898ef43ceb149bba7284d6511e4a3b1/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/methun/.gradle/caches/8.13/transforms/f898ef43ceb149bba7284d6511e4a3b1/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/methun/.gradle/caches/8.13/transforms/307b259d3dc1ddcdf2db987ebdaecfb4/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/methun/.gradle/caches/8.13/transforms/307b259d3dc1ddcdf2db987ebdaecfb4/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/methun/.gradle/caches/8.13/transforms/62333c851753108336584bf2a6c3c72f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/methun/.gradle/caches/8.13/transforms/62333c851753108336584bf2a6c3c72f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/methun/.gradle/caches/8.13/transforms/597812f6cdf48e98e0ddeaa75bfa4d54/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/methun/.gradle/caches/8.13/transforms/597812f6cdf48e98e0ddeaa75bfa4d54/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/methun/.gradle/caches/8.13/transforms/f68a2c632b2b332838ef27be434c6d81/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/methun/.gradle/caches/8.13/transforms/f68a2c632b2b332838ef27be434c6d81/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/methun/.gradle/caches/8.13/transforms/ce076f99016a28e804c620a772c44132/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/methun/.gradle/caches/8.13/transforms/ce076f99016a28e804c620a772c44132/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /home/methun/.gradle/caches/8.13/transforms/4bbdada15111f1f7487cb4a771803b00/transformed/jetified-coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /home/methun/.gradle/caches/8.13/transforms/4bbdada15111f1f7487cb4a771803b00/transformed/jetified-coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/methun/.gradle/caches/8.13/transforms/b5005aefa43ee3b435247f7160a87500/transformed/jetified-coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/methun/.gradle/caches/8.13/transforms/b5005aefa43ee3b435247f7160a87500/transformed/jetified-coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/methun/.gradle/caches/8.13/transforms/09286404ae921f35c2603dbcc42d0bd8/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/methun/.gradle/caches/8.13/transforms/09286404ae921f35c2603dbcc42d0bd8/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/methun/.gradle/caches/8.13/transforms/0d5135b458cb6b99495867c9e37518f0/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/methun/.gradle/caches/8.13/transforms/0d5135b458cb6b99495867c9e37518f0/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d88c67afc5037b36945a8e37b88f417c/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d88c67afc5037b36945a8e37b88f417c/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/methun/.gradle/caches/8.13/transforms/86558f5cdaa4356c0c9f0e27f1a18db8/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/methun/.gradle/caches/8.13/transforms/86558f5cdaa4356c0c9f0e27f1a18db8/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/e9a2214d59478e72e42a458d5918d048/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/e9a2214d59478e72e42a458d5918d048/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/methun/.gradle/caches/8.13/transforms/3bc0f43cdf0c69233fc7e5ac47b9e023/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/methun/.gradle/caches/8.13/transforms/3bc0f43cdf0c69233fc7e5ac47b9e023/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/methun/.gradle/caches/8.13/transforms/5f36d2ccafdcdf2fd020b811bac40291/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/methun/.gradle/caches/8.13/transforms/5f36d2ccafdcdf2fd020b811bac40291/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/methun/.gradle/caches/8.13/transforms/d8c02616d8688d99ce84ed2fcbda5241/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/methun/.gradle/caches/8.13/transforms/d8c02616d8688d99ce84ed2fcbda5241/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/methun/.gradle/caches/8.13/transforms/2e9cdd52cd9a80b2a5a7546222c77a86/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/methun/.gradle/caches/8.13/transforms/2e9cdd52cd9a80b2a5a7546222c77a86/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/methun/.gradle/caches/8.13/transforms/57cd09b2d5140facabb78222cf9a3d37/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/methun/.gradle/caches/8.13/transforms/57cd09b2d5140facabb78222cf9a3d37/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /home/methun/.gradle/caches/8.13/transforms/d78f7bb495ad2c3035bd68d58604ec64/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/methun/.gradle/caches/8.13/transforms/d78f7bb495ad2c3035bd68d58604ec64/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/methun/.gradle/caches/8.13/transforms/5ae683aac3ffdaa10972c5002c686b44/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/methun/.gradle/caches/8.13/transforms/5ae683aac3ffdaa10972c5002c686b44/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/methun/.gradle/caches/8.13/transforms/0f6dbe19119e1b00d3da14ed4725c74f/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/methun/.gradle/caches/8.13/transforms/0f6dbe19119e1b00d3da14ed4725c74f/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/6e5bed1bdf1c4e1d8fe99aef6df57ffa/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/6e5bed1bdf1c4e1d8fe99aef6df57ffa/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/587816fa955b2bca8a83ed4d0614078c/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/587816fa955b2bca8a83ed4d0614078c/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/methun/.gradle/caches/8.13/transforms/e57a3b4a169baabf17c8229fadaee7da/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/methun/.gradle/caches/8.13/transforms/e57a3b4a169baabf17c8229fadaee7da/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /home/methun/.gradle/caches/8.13/transforms/434156b013e6a7c053cd248438f95e9d/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /home/methun/.gradle/caches/8.13/transforms/434156b013e6a7c053cd248438f95e9d/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/methun/.gradle/caches/8.13/transforms/f0840b58518282947a4deb05ac514526/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/methun/.gradle/caches/8.13/transforms/f0840b58518282947a4deb05ac514526/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/methun/.gradle/caches/8.13/transforms/9133e178afc1aef1802ed2bcd7e87908/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/methun/.gradle/caches/8.13/transforms/9133e178afc1aef1802ed2bcd7e87908/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/methun/.gradle/caches/8.13/transforms/694bff509ac45bac1a6f35dee924a0a1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/methun/.gradle/caches/8.13/transforms/694bff509ac45bac1a6f35dee924a0a1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/methun/.gradle/caches/8.13/transforms/6767ff741a6532f49817b90c971f5242/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/methun/.gradle/caches/8.13/transforms/6767ff741a6532f49817b90c971f5242/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/methun/.gradle/caches/8.13/transforms/d60e35cac30d9563c73d3f23413e0fe8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/methun/.gradle/caches/8.13/transforms/d60e35cac30d9563c73d3f23413e0fe8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/methun/.gradle/caches/8.13/transforms/03d4d16d0695d367045775a98368bb42/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/methun/.gradle/caches/8.13/transforms/03d4d16d0695d367045775a98368bb42/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/methun/Clara-alfa/clara_security/android_app/app/src/main/AndroidManifest.xml
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] /home/methun/.gradle/caches/8.13/transforms/988188a494d72e5a9bfad504752446da/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/methun/.gradle/caches/8.13/transforms/8610949395b83a649710ffc9b6567587/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/methun/.gradle/caches/8.13/transforms/6767ff741a6532f49817b90c971f5242/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/methun/.gradle/caches/8.13/transforms/6767ff741a6532f49817b90c971f5242/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/methun/.gradle/caches/8.13/transforms/7c068f0a02902ef75766c43b18fadf1c/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/methun/.gradle/caches/8.13/transforms/d04f0a715c0b77306679561916b62dab/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.clara.security.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.clara.security.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/methun/.gradle/caches/8.13/transforms/588f541e696055c79e4c9c1867521cfd/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/methun/.gradle/caches/8.13/transforms/3c562645aab2f1e5d40d1b2ba6ffcd1a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
