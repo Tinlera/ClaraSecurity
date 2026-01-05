@@ -40,7 +40,7 @@ object PersistenceManager {
             CLS="com.clara.security.service.RealTimeProtectionService"
             LOG_FILE="/data/clara/watchdog.log"
             
-            echo "[\$(date)] CLARA Watchdog Started" >> \$LOG_FILE
+            echo "[$(date)] CLARA Watchdog Started" >> ${'$'}LOG_FILE
             
             # Bekle sistem tam açılsın
             sleep 60
@@ -48,15 +48,15 @@ object PersistenceManager {
             while true; do
                 # Servis çalışıyor mu kontrol et
                 if ! pgrep -f "com.clara.security" > /dev/null; then
-                    echo "[\$(date)] Service DIED, restarting..." >> \$LOG_FILE
+                    echo "[$(date)] Service DIED, restarting..." >> ${'$'}LOG_FILE
                     
                     # Uygulamayı başlat
-                    am start-foreground-service -n \$PKG/\$CLS
+                    am start-foreground-service -n ${'$'}PKG/${'$'}CLS
                     
                     # Eğer foreground service başlatılamazsa, main activity'i başlat
                     sleep 5
                     if ! pgrep -f "com.clara.security" > /dev/null; then
-                         am start -n \$PKG/.MainActivity
+                         am start -n ${'$'}PKG/.MainActivity
                     fi
                 fi
                 

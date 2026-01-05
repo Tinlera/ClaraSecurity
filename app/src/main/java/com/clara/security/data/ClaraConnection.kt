@@ -5,6 +5,7 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.os.Environment
 import android.util.Log
+import com.clara.security.ipc.DaemonIpcClient
 import com.clara.security.model.*
 import com.clara.security.security.SecurityPreferences
 import com.google.gson.Gson
@@ -144,9 +145,21 @@ class ClaraConnection(private val _context: Context) {
             val daemonRunning = RootExecutor.isProcessRunning("clara_orchestrator")
 
             if (daemonRunning) {
-                _connectionMode.value = ConnectionMode.FULL
-                _isConnected.value = true
-                Log.d(TAG, "Mode: FULL (Daemon + Root)")
+                // Daemon çalışıyor - IPC bağlantısı kur
+                val ipcConnected = DaemonIpcClient.connect()
+                if (ipcConnected) {
+                    _connectionMode.value = ConnectionMode.FULL
+                    _isConnected.value = true
+                    Log.d(TAG, "Mode: FULL (Daemon + Root + IPC)")
+                    
+                    // Daemon'dan status al
+                    val status = DaemonIpcClient.getStatus()
+                    Log.d(TAG, "Daemon status: $status")
+                } else {
+                    _connectionMode.value = ConnectionMode.ROOT_ONLY
+                    _isConnected.value = true
+                    Log.w(TAG, "Mode: ROOT_ONLY (Daemon running but IPC failed)")
+                }
             } else {
                 _connectionMode.value = ConnectionMode.ROOT_ONLY
                 _isConnected.value = true

@@ -442,9 +442,12 @@ class RealTimeProtectionService : Service() {
                 }
             }
             ThreatAction.WARN -> {
-                // Sadece bildirim
+                // Sadece bildirim - yukarıda zaten gönderildi
+                Log.i(TAG, "Threat notification sent")
             }
         }
+        
+        Unit // Explicitly return Unit to avoid expression issues
     }
     
     private suspend fun quarantineFile(filePath: String) = withContext(Dispatchers.IO) {
@@ -501,7 +504,7 @@ class RealTimeProtectionService : Service() {
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("CLARA Koruma Aktif")
             .setContentText("Gerçek zamanlı koruma çalışıyor")
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setSmallIcon(R.mipmap.ic_launcher)
             .setOngoing(true)
             .setContentIntent(pendingIntent)
             .build()
